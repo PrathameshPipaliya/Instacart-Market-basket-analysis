@@ -52,7 +52,9 @@ Orders.csv tells to which set (prior, train, test) an order belongs. You are pre
 Product.csv file contains the product id, product name, department id, and aisle id.
 
 ---
+**Exploratory Data Analysis**
 
+---
 **Visual Analysis**
 
 ![download](https://github.com/PrathameshPipaliya/Instacart-Market-basket-analysis/assets/119769729/61dc65d0-4868-4d23-b6ee-eae3c610e352)
@@ -75,7 +77,9 @@ There is a higher number of orders at a lower number of days_since_prior_order, 
 On the basis of peaks in the plot, we can conclude that there are some items that are purchased on a monthly and weekly basis.
 
 ---
+**Market Basket Analysis using MySQL**
 
+---
 **Conclusion and Future Work**
 
 In this blog, we have seen the market basket analysis based on the number of orders and products available in it. we can do further analysis based on Apriori or FP growth algorithm and develop a Machine Learning model for market basket analysis.
