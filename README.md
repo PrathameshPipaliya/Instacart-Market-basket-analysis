@@ -1,1 +1,1 @@
-# Instacart-Market-basket-analysis
+I have used instacart dataset and have done analysis based on that. I have done basic exploratory data analysis using Python and Tableau, Market basket analysis has been done using MySQL and provided suggestions based on product_id.
