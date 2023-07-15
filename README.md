@@ -1,4 +1,3 @@
----
 
 **Instacart Market Basket Analysis**
 
