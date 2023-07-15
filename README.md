@@ -1,71 +1,69 @@
 ---
 
 Instacart Market Basket Analysis
-Image source: deetaanalytics.com blogNowadays most retail companies, Youtube, Amazon, Netflix, and so many companies are using market basket analysis to provide the best meaningful recommendations to customers to increase engagement or better sales. Market basket analysis is a powerful tool to convert transactional data into combinational product recommendations based on selected products. In this analysis, we'll find out how to perform market basket analysis by using the Instacart dataset.
+
+most retail companies, Youtube, Amazon, Netflix, and so many companies are using market basket analysis to provide the best meaningful recommendations to customers to increase engagement or better sales. Market basket analysis is a powerful tool to convert transactional data into combinational product recommendations based on selected products. In this analysis, we'll find out how to perform market basket analysis by using the Instacart dataset.
 
 ---
 
 What is market basket Analysis?
+
 Market Basket Analysis is about finding frequently purchased items and providing recommendations based on an item that makes the most probable combination with the item which is purchased.
 
 ---
 
 How is Market Basket Analysis Used in Different Industries?
+
 Retail: By knowing the most commonly purchased items and providing the best combo offers and keeping products handy based on combinations
+
 E-commerce: By proving recommendations based on the product page which is viewed by customers and providing similar items section
+
 Food Industry: one can provide combo offers based on the maximum number of purchased items
+
 OTT Platforms & Social media: we can suggest similar types of content based on users liking for the genre
+
 Telecommunication: we can offer customers combo offers based on packages that go together
 
 ---
 
 Problem Statement
-The objective of this analysis is to perform a market basket analysis on the Instacart dataset. Market basket analysis involves analyzing customer purchase patterns and identifying associations between products frequently bought together. The goal is to derive actionable insights that can be used for product recommendations, cross-selling strategies, and inventory optimization.
+
+The objective of this analysis is to perform a market basket analysis on the Instacart dataset. Market basket analysis involves analyzing customer purchase 
+patterns and identifying associations between products frequently bought together. The goal is to derive actionable insights that can be used for product recommendations, cross-selling strategies, and inventory optimization.
 
 ---
 
 Dataset
+
 There is below tables which are used in analyzing this dataset
+
 Each entity Customer, Product, Order, Aisle, etc has an associated unique id.
+
 Most of the files and variable names are self-explanatory.
+
 aisles.csv contains the aisle id and the products present in the aisle. For example, Pasta sauce, fresh pasta, etc.
+
 Department.csv contains the name of all the departments and the department id. For example, Frozen, Bakery, Alcohol, etc.
-Order_products.csv specifies which products were purchased in each order. order_products__prior.csv contains previous order contents for all customers. 'reordered' indicates that the customer has a previous order that contains the product. Note that some orders will have no reordered items. You may predict an explicit 'None' value for orders with no reordered items.
+
+Order_products.csv specifies which products were purchased in each order. order_products__prior.csv contains previous order contents for all customers. 
+'reordered' indicates that the customer has a previous order that contains the product. Note that some orders will have no reordered items. You may predict an explicit 'None' value for orders with no reordered items.
+
 Orders.csv tells to which set (prior, train, test) an order belongs. You are predicting reordered items only for the test set orders. 'order_dow' is the day of the week.
+
 Product.csv file contains the product id, product name, department id, and aisle id.
 
 ---
 
-Exploratory Data Analysis
-I have done exploratory data analysis using python jupyter notebook which includes finding shape and null data and knowing our dataset.
-importing relevant libraries
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-loading our relational data tables
-aisle=pd.read_csv("aisles.csv")
-aisle.head()
-department=pd.read_csv("departments.csv")
-department.head()
-products=pd.read_csv("products.csv")
-products.head()
-orders=pd.read_csv("orders.csv")
-orders.head()
-opp=pd.read_csv("order_products__prior.csv")
-opp.head()
-I have done shape analysis and also found the details of non-null values for the tables below
+**Exploratory Data Analysis**
 
-We can see that there are no null values in the aisle, products, and department tables. so, let's check for orders and the order_products_prior table
+I have done exploratory data analysis using python jupyter notebook which is attached
 
-Here we can observe that there are no null values in any table except the orders table's days_since_prior_order_table.
-so, let's check the orders table for a relation between null values and other parameters
-
-Here I have observed that the null value in days_since_prior_order is for each user's first order place.
 
 ---
 
-Visual Analysis
+**Visual Analysis**
+
+
 Here we can observe that the maximum number of orders contains 5–6 products in their orders.
 There is a very low chance of having more than 20 products in the cart of any order
 
