@@ -62,14 +62,20 @@ I have done exploratory data analysis using python jupyter notebook which is att
 
 **Visual Analysis**
 
+![download](https://github.com/PrathameshPipaliya/Instacart-Market-basket-analysis/assets/119769729/61dc65d0-4868-4d23-b6ee-eae3c610e352)
 
 Here we can observe that the maximum number of orders contains 5–6 products in their orders.
 There is a very low chance of having more than 20 products in the cart of any order
 
+![Sheet 1](https://github.com/PrathameshPipaliya/Instacart-Market-basket-analysis/assets/119769729/df82ac24-9913-40d8-ab2a-25783c01c74f)
 From the above plot, we can infer that the 10th hour of the day and the 15–16th hour of the day has peak time for orders.
 From the above plot, we can access customer rush in the hours of the day.
 
+![Sheet 2](https://github.com/PrathameshPipaliya/Instacart-Market-basket-analysis/assets/119769729/0dd600eb-e6fe-4018-9b9d-047410e33706)
+
 Here is the plot for orders placed according to the day of the week. we can observe that there is a higher number of orders on the 0th and 1st day of the week.
+
+![Sheet 3](https://github.com/PrathameshPipaliya/Instacart-Market-basket-analysis/assets/119769729/73d38518-0ef8-4ca4-a06e-99ff6ef154b0)
 
 From the above plot, we can observe peaks on a weekly basis and a monthly basis.
 There is a higher number of orders at a lower number of days_since_prior_order, which means there is more number of users who are used to order a regular basis.
@@ -247,12 +253,18 @@ suggestion4 and suggestion5 are products that are not from the given products de
 
 ---
 
-Conclusion and Future Work
+**Conclusion and Future Work**
+
 In this blog, we have seen the market basket analysis based on the number of orders and products available in it. we can do further analysis based on Apriori or FP growth algorithm and develop a Machine Learning model for market basket analysis.
+
 Based on the analysis, we can suggest the retailer, maintain the inventory based on our recommended combination of products available in the orders.
+
 We can suggest designing a layout such that products and recommended products can be easily available to find by customers.
+
 There can be a weekly and monthly rush for items, so be prepared for the inventory and better service to customers.
+
 customers are purchasing organic products more frequently compared to others, so maintain availability and different varieties of organic items.
+
 We have observed there are few peak hours for the sale, so plan accordingly for that time.
 
 ---
