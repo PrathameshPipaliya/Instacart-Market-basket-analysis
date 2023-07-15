@@ -92,8 +92,12 @@ We have observed there are few peak hours for the sale, so plan accordingly for 
 
 ---
 
-References
+**References**
+
 "The Instacart Online Grocery Shopping Dataset 2017", Accessed from https://www.instacart.com/datasets/grocery-shopping-2017 
-scaler.com
+
+https://scaler.com
+
 https://towardsdatascience.com/a-gentle-introduction-on-market-basket-analysis-association-rules-fa4b986a40ce
+
 https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-market-basket-analysis/
