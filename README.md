@@ -1,39 +1,39 @@
 ---
 
-Instacart Market Basket Analysis
+**Instacart Market Basket Analysis**
 
 most retail companies, Youtube, Amazon, Netflix, and so many companies are using market basket analysis to provide the best meaningful recommendations to customers to increase engagement or better sales. Market basket analysis is a powerful tool to convert transactional data into combinational product recommendations based on selected products. In this analysis, we'll find out how to perform market basket analysis by using the Instacart dataset.
 
 ---
 
-What is market basket Analysis?
+**What is market basket Analysis?**
 
 Market Basket Analysis is about finding frequently purchased items and providing recommendations based on an item that makes the most probable combination with the item which is purchased.
 
 ---
 
-How is Market Basket Analysis Used in Different Industries?
+**How is Market Basket Analysis Used in Different Industries?**
 
-Retail: By knowing the most commonly purchased items and providing the best combo offers and keeping products handy based on combinations
+**Retail:** By knowing the most commonly purchased items and providing the best combo offers and keeping products handy based on combinations
 
-E-commerce: By proving recommendations based on the product page which is viewed by customers and providing similar items section
+**E-commerce:** By proving recommendations based on the product page which is viewed by customers and providing similar items section
 
-Food Industry: one can provide combo offers based on the maximum number of purchased items
+**Food Industry:** one can provide combo offers based on the maximum number of purchased items
 
-OTT Platforms & Social media: we can suggest similar types of content based on users liking for the genre
+**OTT Platforms & Social media:** we can suggest similar types of content based on users liking for the genre
 
-Telecommunication: we can offer customers combo offers based on packages that go together
+**Telecommunication:** we can offer customers combo offers based on packages that go together
 
 ---
 
-Problem Statement
+**Problem Statement**
 
 The objective of this analysis is to perform a market basket analysis on the Instacart dataset. Market basket analysis involves analyzing customer purchase 
 patterns and identifying associations between products frequently bought together. The goal is to derive actionable insights that can be used for product recommendations, cross-selling strategies, and inventory optimization.
 
 ---
 
-Dataset
+**Dataset**
 
 There is below tables which are used in analyzing this dataset
 
@@ -78,7 +78,7 @@ On the basis of peaks in the plot, we can conclude that there are some items tha
 
 ---
 
-Market Basket Analysis using MySQL
+**Market Basket Analysis using MySQL**
 As part of our market basket analysis, our first task is to find out product which is most frequent in each order. 
 
 SELECT opp.product_id, p.product_name,count(distinct order_id) as frequency
