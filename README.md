@@ -53,6 +53,7 @@ Product.csv file contains the product id, product name, department id, and aisle
 
 ---
 **Exploratory Data Analysis**
+Please Refer attached file
 
 ---
 **Visual Analysis**
@@ -78,6 +79,7 @@ On the basis of peaks in the plot, we can conclude that there are some items tha
 
 ---
 **Market Basket Analysis using MySQL**
+Please Refer attached file
 
 ---
 **Conclusion and Future Work**
